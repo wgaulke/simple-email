@@ -79,4 +79,8 @@ public class FreeMarkerTemplate implements TemplateProvider
 
         return writer.toString();
     }
+
+	public Configuration getConfiguration() {
+		return configuration;
+	}
 }
